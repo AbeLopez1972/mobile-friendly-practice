@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    max-width: 100%; /* Maximum width */
+    margin: 0 auto; /* Center it */
+  }
+  
+  .container .headline {
+    position: absolute;
+    top:0;
+    color: #f1f1f1;
+    margin-left: 41%;
+    padding: 20px;
+  }
+  .container .section1{
+      width: 80%;
+      height: 50px;
+      margin-left: 10%;
+      float: left;
+  }
+  .container .section2{
+    width: 80%;
+    height: 50px;
+    margin-right: 10%;
+    margin-top: 100px;
+    text-align: right;
+    float: right;
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #000;
+    color: #f1f1f1;
+    margin-top: 400px;
+    clear: both;
+  }
